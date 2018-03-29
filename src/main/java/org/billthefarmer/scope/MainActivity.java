@@ -92,7 +92,7 @@ public class MainActivity extends Activity
     private static final int VERSION_M = 23;
 
     protected static final int SIZE = 20;
-    protected static final int DEFAULT_TIMEBASE = 3;
+    protected static final int DEFAULT_TIMEBASE = 5;
     protected static final float SMALL_SCALE = 200;
     protected static final float LARGE_SCALE = 200000;
 
@@ -114,6 +114,7 @@ public class MainActivity extends Activity
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+
         super.onCreate(savedInstanceState);
 
         // Get preferences

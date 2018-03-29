@@ -50,4 +50,25 @@
       app:BackgroundColour="?android:attr/colorBackground"
       app:TextColour="?android:attr/textColorPrimary" />
 
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@+id/yscale"
+      android:layout_alignParentEnd="true"
+      android:adjustViewBounds="false"
+      android:cropToPadding="false"
+      android:src="@drawable/icon"
+      android:background="#00000000"
+      tools:ignore="RtlCompat" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@+id/yscale"
+      android:layout_alignStart="@+id/scope"
+      android:text="TextView"
+      tools:ignore="RtlCompat" />
+
 </RelativeLayout>

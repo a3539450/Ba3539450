@@ -27,7 +27,7 @@
 		android:icon="@drawable/ic_action_time"
 		android:showAsAction="always"
 		android:title="@string/action_timebase"
-		android:visible="false">
+		android:visible="true">
 
 		<menu>
 			<group android:checkableBehavior="single">
